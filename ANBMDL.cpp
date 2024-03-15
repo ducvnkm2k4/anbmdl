@@ -50,6 +50,7 @@ void extendedEuclidean(int a, int b, int &x, int &y, int &gcd) {
 int main() {
 int a = 131364, b = 17;
     int x, y, gcd;
+    int abc;
     extendedEuclidean(a, b, x, y, gcd);
     cout << "UCLN của " << a << " và " << b << " là " << gcd << endl;
     cout << "x = " << x << ", y = " << y << endl;    
